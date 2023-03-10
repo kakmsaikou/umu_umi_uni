@@ -1,0 +1,19 @@
+.wrapper {
+  z-index: 5;
+  .nero {
+    // 不要让图片宽度超过文字宽度太多
+    width: calc(24px * 5.5);
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 4px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    max-width: calc(100vw - 60px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
