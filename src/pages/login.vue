@@ -2,7 +2,7 @@
   <view class="content">
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
-      IndexPage
+      LoginPage
     </view>
   </view>
 </template>
