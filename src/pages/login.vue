@@ -3,23 +3,23 @@
     <view class="bgCircle"/>
     <view class="mainContent">
       <NeroLogo class="neroLogo"/>
-      
+      <LoginForm/>
     </view>
   </view>
 </template>
 
 <script setup lang="ts">
-  import NeroLogo from "../components/commons/NeroLogo";
+  import NeroLogo from "@/components/commons/NeroLogo";
+  import LoginForm from "@/components/login/LoginForm";
 </script>
 
 
 <style lang="scss">
 .content {
-  position: relative;
   width: 100vw;
   height: 100vh;
   background-color: #f4f4f4;
-  overflow: hidden;
+  // overflow: hidden;
 
   .bgCircle {
     position: absolute;
