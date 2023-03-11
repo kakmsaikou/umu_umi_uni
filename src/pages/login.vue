@@ -2,7 +2,7 @@
   <view class="content">
     <view class="bgCircle"/>
     <view class="mainContent">
-      <NeroLogo/>
+      <NeroLogo class="neroLogo"/>
       
     </view>
   </view>
@@ -15,8 +15,11 @@
 
 <style lang="scss">
 .content {
-  background-color: #f4f4f4;
+  position: relative;
+  width: 100vw;
   height: 100vh;
+  background-color: #f4f4f4;
+  overflow: hidden;
 
   .bgCircle {
     position: absolute;
@@ -34,7 +37,7 @@
     flex-direction: column;
     align-items: center;
 
-    .NeroLogoWithText {
+    .neroLogo {
       // 顶部稍微多留防止刘海屏遮挡
       padding-top: 4vh;
       padding-bottom: 12px;
