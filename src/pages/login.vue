@@ -2,7 +2,7 @@
   <view class="content">
     <view class="bgCircle"/>
     <view class="mainContent">
-      <NeroLogo class="neroLogo"/>
+      <NeroLogo/>
       <LoginForm/>
     </view>
   </view>
@@ -16,10 +16,8 @@
 
 <style lang="scss">
 .content {
-  width: 100vw;
   height: 100vh;
   background-color: #f4f4f4;
-  // overflow: hidden;
 
   .bgCircle {
     position: absolute;
@@ -27,7 +25,7 @@
     height: 160vw;
     background-color: #b36a64;
     border-radius: 50%;
-    top: -295px;
+	top: -35%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -35,13 +33,6 @@
   .mainContent {
     display: flex;
     flex-direction: column;
-    align-items: center;
-
-    .neroLogo {
-      // 顶部稍微多留防止刘海屏遮挡
-      padding-top: 4vh;
-      padding-bottom: 12px;
-    }
   }
 }
 </style>

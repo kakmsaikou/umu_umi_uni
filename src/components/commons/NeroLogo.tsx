@@ -6,8 +6,8 @@ export const NeroLogo = defineComponent({
   setup: (props, context) => {
     return () => (
       <view class={s.wrapper}>
-        <img class={s.nero} src={nero} alt='' />
-        <view class={s.subtitle}>　うむうむ！</view>
+        <image class={s.nero} mode='widthFix' src={nero}/>
+        <h1 class={s.subtitle}>　うむうむ！</h1>
       </view>
     );
   },
